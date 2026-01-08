@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/a9bb51fbc00b4df091702d7b21e0f0f2/artifacts
+end_time: 1767898169528
+entry_point_name: ''
+experiment_id: '514264894501982664'
+lifecycle_stage: active
+run_id: a9bb51fbc00b4df091702d7b21e0f0f2
+run_name: sassy-conch-302
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767898150338
+status: 3
+tags: []
+user_id: admin

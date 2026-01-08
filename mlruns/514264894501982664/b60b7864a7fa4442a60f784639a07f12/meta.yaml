@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/b60b7864a7fa4442a60f784639a07f12/artifacts
+end_time: 1767898988129
+entry_point_name: ''
+experiment_id: '514264894501982664'
+lifecycle_stage: active
+run_id: b60b7864a7fa4442a60f784639a07f12
+run_name: kindly-duck-395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767898977910
+status: 3
+tags: []
+user_id: admin

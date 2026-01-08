@@ -1,0 +1,10 @@
+artifact_location: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/models/m-e101a5197f5944feba5751cf450642bf/artifacts
+creation_timestamp: 1767898642753
+experiment_id: '514264894501982664'
+last_updated_timestamp: 1767898657017
+model_id: m-e101a5197f5944feba5751cf450642bf
+model_type: null
+name: model
+source_run_id: d2ae60ae22c647d0b7f93d69509e249d
+status: 2
+status_message: null

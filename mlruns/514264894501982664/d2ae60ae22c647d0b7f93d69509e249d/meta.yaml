@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/d2ae60ae22c647d0b7f93d69509e249d/artifacts
+end_time: 1767898657045
+entry_point_name: ''
+experiment_id: '514264894501982664'
+lifecycle_stage: active
+run_id: d2ae60ae22c647d0b7f93d69509e249d
+run_name: polite-wren-542
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767898642508
+status: 3
+tags: []
+user_id: admin

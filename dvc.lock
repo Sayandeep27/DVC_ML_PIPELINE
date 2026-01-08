@@ -9,8 +9,8 @@ stages:
       size: 72
     - path: src/prepare.py
       hash: md5
-      md5: a9a473da1c3a9dd4b4f594857b81bcc9
-      size: 235
+      md5: 4177012a895fa833a85b854fc4fb08fe
+      size: 214
     outs:
     - path: data/processed/processed.csv
       hash: md5
@@ -29,8 +29,8 @@ stages:
       size: 46
     - path: src/train.py
       hash: md5
-      md5: ebd4519ca84d714fa163bbe85ae4514d
-      size: 660
+      md5: e4252df4462c3a6423d0ec17fba96e51
+      size: 1393
     outs:
     - path: models/model.pkl
       hash: md5

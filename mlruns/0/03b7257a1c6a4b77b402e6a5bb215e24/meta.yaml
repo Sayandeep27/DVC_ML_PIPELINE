@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/0/03b7257a1c6a4b77b402e6a5bb215e24/artifacts
+end_time: 1767898176114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03b7257a1c6a4b77b402e6a5bb215e24
+run_name: vaunted-fawn-399
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767898176003
+status: 3
+tags: []
+user_id: admin

@@ -1,0 +1,6 @@
+artifact_location: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664
+creation_time: 1767898148560
+experiment_id: '514264894501982664'
+last_update_time: 1767898148560
+lifecycle_stage: active
+name: DVC_ML_Pipeline

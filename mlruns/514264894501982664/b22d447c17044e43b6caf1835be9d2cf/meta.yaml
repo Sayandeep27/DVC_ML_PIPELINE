@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/b22d447c17044e43b6caf1835be9d2cf/artifacts
+end_time: 1767899354397
+entry_point_name: ''
+experiment_id: '514264894501982664'
+lifecycle_stage: active
+run_id: b22d447c17044e43b6caf1835be9d2cf
+run_name: charming-lynx-443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767899344825
+status: 3
+tags: []
+user_id: admin

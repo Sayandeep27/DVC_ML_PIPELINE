@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/DVC_PIPELINE_ML/mlruns/514264894501982664/de4eea7f53e049009514ed7b5411f388/artifacts
+end_time: 1767899137032
+entry_point_name: ''
+experiment_id: '514264894501982664'
+lifecycle_stage: active
+run_id: de4eea7f53e049009514ed7b5411f388
+run_name: enchanting-chimp-602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767899127931
+status: 3
+tags: []
+user_id: admin
