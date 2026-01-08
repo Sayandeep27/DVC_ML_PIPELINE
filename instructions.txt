@@ -1,0 +1,62 @@
+1. Create a new empty folder
+2. git init
+   dvc init
+   git commit -m "Initialize git and dvc"
+3. Create Raw Dataset - data/raw/data.csv
+4. dvc add data/raw/data.csv
+   git add data/raw/data.csv.dvc data/raw/.gitignore
+   git commit -m "Add raw dataset v1"
+5. Create Parameters File (params.yaml)
+6. src/prepare.py,train.py,evaluate.py
+7. Add dvc.yaml file
+8. Run dvc pipeline: dvc repro
+9. git add .
+   git commit -m "Complete clean ML DVC pipeline v1"
+10. Edit prepare.py 
+11. Run: dvc repro
+12. git add .
+    git commit -m "Complete clean ML DVC pipeline v2"
+10. Edit prepare.py (2nd time, you can change any other file as well)
+11. Run: dvc repro
+12. git add .
+    git commit -m "Complete clean ML DVC pipeline v3"  
+13. git log --oneline
+14. git checkout <commit-id> (go to any commit)
+    dvc checkout (after this, automatically data of that particular commit will be re-stored)
+15. When you checkout an old commit, Git puts you in a state called:DETACHED HEAD   
+    Meaning:
+
+    You are not on the master branch
+
+    You are viewing history only up to that commit
+
+    Commits after it are not lost
+
+    They are just not reachable from this point
+    
+    Now, to go to any branch after that, always to go the last commit (master) - 
+    
+    git checkout master
+    dvc checkout
+    
+    Now, you will be again in the final state
+    
+    
+16. Now run this again: git log --oneline
+17. Now you can go to any branch again - 
+    git checkout <commit>
+    dvc checkout
+
+18. dvc metrics show --all-commits --json (see all metrics json)
+    or
+    dvc metrics show --all-commits --precision 30 (see all metrics)
+
+19. Now change the params.yaml file, and run- (optional)
+    dvc repro
+    
+20. Run this:  dvc exp show --json    - you will get the json of all data of all commits
+    
+    
+   
+
+
