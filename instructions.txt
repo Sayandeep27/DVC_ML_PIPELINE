@@ -58,5 +58,76 @@
     
     
    
+-------------------------------------------------------------------------------------------------------------------------
+
+You cannot see CSV files, models, or metrics in GitHub because DVC intentionally does NOT store large data or artifacts in Git.
+
+GitHub only shows:
+
+.dvc files
+
+dvc.yaml
+
+params.yaml
+
+code
+
+metrics metadata, not actual data
+
+Your CSV and metrics files are tracked by DVC, not Git.
+
+🧠 The core rule (memorize this)
+
+Git = metadata & instructions
+DVC = actual data & models
+
+GitHub is not your data warehouse.
+
+1️⃣ What actually happened when you ran dvc add
+
+When you did:
+
+dvc add data/raw/data.csv
 
 
+DVC did three things:
+
+1. Moved the real CSV out of Git tracking
+data/raw/data.csv  →  ignored by Git
+
+2. Created a pointer file
+data/raw/data.csv.dvc
+
+
+This file contains:
+
+outs:
+- md5: a9c3...
+  size: 23412
+  path: data/raw/data.csv
+
+3. Stored the real data in DVC cache
+.dvc/cache/
+
+2️⃣ What GitHub receives after git push
+
+GitHub sees only:
+
+data/raw/data.csv.dvc   ✅
+data/raw/.gitignore    ✅
+dvc.yaml               ✅
+params.yaml            ✅
+metrics.json           ❌ (ignored if tracked by DVC)
+models/                ❌
+
+❌ GitHub NEVER receives:
+
+CSV
+
+models
+
+metrics files
+
+large artifacts
+
+This is by design, not a bug.
